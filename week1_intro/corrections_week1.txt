@@ -1,0 +1,44 @@
+🔥 Week 1: COMPLETE! 🔥
+You nailed it. Here's a quick review:
+
+✅ GitHub Confirmation
+Screenshot confirms your push to GitHub was successful ✅
+
+The new branch main -> main shows you pushed your initial commit correctly.
+
+✅ QSAR Summary – Feedback
+You show strong understanding. Just a few clarifications & enhancements to tighten your answer:
+
+Your version (edited):
+Quantitative Structure-Activity Relationship (QSAR) models are regression or classification models used to predict biological activity based on physical and chemical properties of molecules.
+QSAR involves selecting molecular descriptors (quantitative features), analyzing their correlation with a known biological activity, and training predictive models.
+The key steps are:
+
+Dataset selection and descriptor extraction
+
+Feature selection
+
+Model construction (regression or classification)
+
+Validation and evaluation
+
+💡 Well done — your steps and structure are solid.
+
+✅ Concept Check – Feedback
+1. What is a descriptor?
+
+✅ Your answer is good: a descriptor is a numerical value representing a molecular property (e.g., molecular weight, LogP, number of hydrogen bond donors, etc.)
+
+2. What is a fingerprint?
+
+⚠️ Your answer is in the right direction, but needs to be clearer:
+
+A fingerprint is a bit vector or binary array encoding the presence/absence of specific substructures or features in a molecule.
+
+Unlike descriptors, which are often numeric values, fingerprints are like molecular "barcodes" used for similarity comparison or ML input.
+
+📘 Example: A 1024-bit fingerprint where bit 103 = 1 might mean the molecule has a benzene ring.
+
+3. What does a QSAR model predict?
+
+✅ Correct: It predicts a quantitative or qualitative biological property, such as activity, toxicity, or binding affinity, based on structural features.
