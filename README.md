@@ -1,7 +1,8 @@
 # QSAR Pipeline for Molecular Bioactivity Prediction
 
 **Author:** Iker Zapirain Gysling  
-**Project Type:** Cheminformatics + Machine Learning + Drug Discovery
+**Project Type:** Cheminformatics + Machine Learning + Drug Discovery  
+
 **Status:** 🚧 In Progress  
 
 ---
@@ -62,6 +63,9 @@ graph TD
 
 ## Repository Structure
 
+## Repository Structure
+
+```text
 qsar-pipeline-project/
 │
 ├── README.md                    ← This file
@@ -75,8 +79,8 @@ qsar-pipeline-project/
 ├── scripts/                     ← Utility scripts (e.g., data download, cleaning)
 │   └── fetch_chembl_data.py
 ├── results/                     ← Final outputs, figures, and evaluations
-└── models/                      ← Saved ML models 
-
+└── models/                      ← Saved ML models  
+```
 
 ---
 
