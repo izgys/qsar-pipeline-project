@@ -69,17 +69,22 @@ graph TD
 qsar-pipeline-project/
 │
 ├── README.md                    ← This file
-├── data/                        ← Raw and cleaned datasets
-│   └── chembl_egfr_clean.csv
-├── notebooks/                   ← Jupyter notebooks for each stage
-│   ├── 01_data_collection.ipynb
-│   ├── 02_featurization.ipynb
-│   ├── 03_modeling.ipynb
-│   └── 04_evaluation.ipynb
-├── scripts/                     ← Utility scripts (e.g., data download, cleaning)
-│   └── fetch_chembl_data.py
-├── results/                     ← Final outputs, figures, and evaluations
-└── models/                      ← Saved ML models  
+│
+├── data/                        ← Raw and processed data files
+│   ├── chembl_egfr_clean.csv    ← Cleaned IC50 + SMILES data
+│   ├── descriptors.csv          ← RDKit physicochemical descriptors
+│   ├── fingerprints.npy         ← Morgan fingerprints (X input for ML)
+│   └── labels.csv               ← pIC50 values (y labels for ML)
+│
+├── notebooks/                   ← Step-by-step Jupyter notebooks
+│   ├── 01_data_collection.ipynb ← Data download + cleaning
+│   └── 02_featurization.ipynb   ← Descriptor + fingerprint generation
+│
+├── scripts/                     ← Utility scripts (to be added)
+│
+├── results/                     ← Plots, metrics, and final outputs
+│
+└── models/                      ← Trained ML models
 ```
 
 ---
